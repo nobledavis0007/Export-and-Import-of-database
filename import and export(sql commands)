@@ -1,0 +1,8 @@
+TO IMPORT SCHEMA AND DATA: 
+mysql sakila -u root -p < sakila-mv-schema.sql;
+mysql sakila -u root -p < sakila-mv-data.sql;  
+
+TO EXPORT A DATABASE AS BACKUP:
+mysqldump sakila -u root -p > sakila_backup.sql;
+
+
